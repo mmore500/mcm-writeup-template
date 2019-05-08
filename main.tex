@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{ textcomp }
+\usepackage{graphicx}
+\graphicspath{ {/TexmakerMacosxLion/} }
+\usepackage{geometry}
+\usepackage{pageslts}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{Page {\thepage} of \lastpageref{LastPages}}
+\lhead{Team Number}
+%\pagenumbering{gobble}
+%\renewcommand{\headrulewidth}{0pt}
+
+
+
+\begin{document}
+
+\begin{center}
+{\Large Title}
+\end{center}
+
+%\begin{center}
+%\includegraphics{.jpg}\\
+%\textbf{Figure 1. }Figure caption text
+%\end{center}
+
+An example citation. \cite{latexcompanion}
+
+%\begin{center}
+%\includegraphics[scale=0.4]{}\\
+%\textbf{Figure #.} Put figure caption here.
+%\end{center}
+
+\section{Summary}
+
+\section{Introduction}
+
+\section{Background}
+
+\section{Overall Assumptions}
+
+\section{List of Variables and Parameters}
+
+\section{The Model}
+
+\section{The Simulation}
+\subsection{Parameter Fitting}
+\subsection{Sensitivity Analysis}
+
+\section{Strengths and Weaknesses}
+\subsection{Strengths}
+\subsection{Weaknesses}
+
+\section{Conclusion}
+
+\section{References}
+
+\begin{thebibliography}{9}
+\bibitem{latexcompanion} 
+Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+\textit{The \LaTeX\ Companion}. 
+Addison-Wesley, Reading, Massachusetts, 1993.
+ 
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+[\textit{On the electrodynamics of moving bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+ 
+\bibitem{knuthwebsite} 
+Knuth: Computers and Typesetting,
+\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+\end{document}
